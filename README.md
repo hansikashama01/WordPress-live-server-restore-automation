@@ -349,45 +349,7 @@ Planned upgrades:
 
 ---
 
-# 🏷 Recommended GitHub Topics
 
-```text
-wordpress
-docker
-devops
-automation
-aws
-lightsail
-bash
-linux
-nginx
-wp-cli
-migration
-```
-
----
-
-# 📄 License
-
-MIT License
-
-Copyright (c) 2026 Hansika Shamal
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files to deal in the Software
-without restriction.
-
----
-
-# ⭐ Support
-
-If this project helped you:
-
-- Star the repository
-- Fork the project
-- Share with others
-
----
 
 # 👨‍💻 Author
 
