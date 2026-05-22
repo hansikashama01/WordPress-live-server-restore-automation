@@ -27,25 +27,6 @@ Automatically installs and configures:
 
 ---
 
-#  How It Works
-
-```text
-Old WordPress Server
-        ↓
- .wpress Backup
-        ↓
-
-Create AWS Lightsail Instance
-        ↓
-Add Launch Script
-        ↓
-Automatic Setup Starts
-        ↓
-Docker + WordPress + Restore
-        ↓
-Website Live
-```
-
 ---
 
 #  Requirements
