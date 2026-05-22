@@ -168,30 +168,6 @@ The script automatically performs:
 
 ---
 
-#  DNS Setup Example
-
-Example using Cloudflare.
-
-## Root Domain
-
-```text
-Type: A
-Name: @
-IP: YOUR_SERVER_IP
-```
-
-## WWW
-
-```text
-Type: CNAME
-Name: www
-Target: yourdomain.com
-```
-
----
-
----
-
 ## Check Docker Containers
 
 ```bash
