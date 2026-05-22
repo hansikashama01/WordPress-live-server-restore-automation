@@ -84,15 +84,12 @@ Advanced Details
 ```
 
 Edit this:
-# -----------------------------
-# DOMAIN SETUP (CHANGE THIS ONLY)
-# -----------------------------
-DOMAIN="Add your domain"
+# DOMAIN SETUP (CHANGE THIS ONLY) 
+DOMAIN="yourdomain.com"
 
-# -----------------------------
-# BACKUP URL (CHANGE THIS ONLY, cloud panel backup link )
-# -----------------------------
+# BACKUP URL (CHANGE THIS ONLY)
 BACKUP_URL="https://example.com/site-backup.wpress"
+
 
 ---
 
