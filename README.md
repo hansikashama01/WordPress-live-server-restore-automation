@@ -27,8 +27,6 @@ Automatically installs and configures:
 
 ---
 
----
-
 #  Requirements
 
 Before using this project you need:
