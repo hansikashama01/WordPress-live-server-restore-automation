@@ -138,7 +138,7 @@ The system will automatically:
 
 ---
 
-# 🎉 Finished
+#  Finished
 
 Open:
 
@@ -150,7 +150,7 @@ Your restored website should now be live.
 
 ---
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```text
 wordpress-auto-restore/
@@ -238,7 +238,7 @@ systemctl restart nginx
 
 ---
 
-# 🔒 Security Notes
+#  Security Notes
 
 Never expose:
 
@@ -257,7 +257,7 @@ Recommended:
 
 ---
 
-# 🔐 SSL Setup (Optional)
+#  SSL Setup (Optional)
 
 Install Certbot:
 
@@ -273,7 +273,7 @@ certbot --nginx -d yourdomain.com -d www.yourdomain.com
 
 ---
 
-# 🧠 Why This Project?
+#  Why This Project?
 
 This project was built to simplify:
 
@@ -286,7 +286,7 @@ using DevOps principles and automation scripting.
 
 ---
 
-# 🧰 Technologies Used
+#  Technologies Used
 
 - Bash
 - Docker
@@ -298,7 +298,7 @@ using DevOps principles and automation scripting.
 
 ---
 
-# 📈 Future Improvements
+#  Future Improvements
 
 Planned upgrades:
 
