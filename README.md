@@ -84,11 +84,15 @@ Advanced Details
 ```
 
 Edit this:
-# DOMAIN SETUP (CHANGE THIS ONLY) 
+## DOMAIN SETUP (CHANGE THIS ONLY) 
+```bash
 DOMAIN="yourdomain.com"
+```
 
-# BACKUP URL (CHANGE THIS ONLY)
+## BACKUP URL (CHANGE THIS ONLY)
+```bash
 BACKUP_URL="https://example.com/site-backup.wpress"
+```
 
 
 ---
