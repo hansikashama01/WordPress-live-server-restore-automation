@@ -13,7 +13,7 @@ Automatically installs and configures:
 
 ---
 
-# 🚀 Features
+#  Features
 
 ✅ Fully Automated WordPress Deployment  
 ✅ AWS Lightsail Launch Script Support  
@@ -27,7 +27,7 @@ Automatically installs and configures:
 
 ---
 
-# 🏗 How It Works
+#  How It Works
 
 ```text
 Old WordPress Server
@@ -49,7 +49,7 @@ Website Live
 
 ---
 
-# 📋 Requirements
+#  Requirements
 
 Before using this project you need:
 
@@ -60,7 +60,7 @@ Before using this project you need:
 
 ---
 
-# ⚡ Quick Start
+#  Quick Start
 
 ## 1. Create AWS Lightsail Instance
 
@@ -83,21 +83,16 @@ Advanced Details
 → Launch Script
 ```
 
-Paste this:
+Edit this:
+# -----------------------------
+# DOMAIN SETUP (CHANGE THIS ONLY)
+# -----------------------------
+DOMAIN="Add your domain"
 
-```bash
-#!/bin/bash
-
-export DOMAIN="example.com"
-
-export BACKUP_URL="https://example.com/site.wpress"
-
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/wordpress-auto-restore/main/setup.sh
-
-chmod +x setup.sh
-
-./setup.sh
-```
+# -----------------------------
+# BACKUP URL (CHANGE THIS ONLY, cloud panel backup link )
+# -----------------------------
+BACKUP_URL="https://example.com/site-backup.wpress"
 
 ---
 
@@ -129,7 +124,7 @@ Value: example.com
 
 ---
 
-## 5. Wait 5-15 Minutes
+## 5. Wait 3-5 Minutes
 
 The system will automatically:
 
@@ -162,14 +157,12 @@ wordpress-auto-restore/
 ├── setup.sh
 ├── README.md
 ├── LICENSE
-├── .gitignore
-├── screenshots/
-└── docs/
+
 ```
 
 ---
 
-# 🔧 setup.sh Overview
+#  setup.sh Overview
 
 The script automatically performs:
 
@@ -196,7 +189,7 @@ The script automatically performs:
 
 ---
 
-# 🌐 DNS Setup Example
+#  DNS Setup Example
 
 Example using Cloudflare.
 
@@ -217,36 +210,6 @@ Target: yourdomain.com
 ```
 
 ---
-
-# 📸 Screenshots
-
-## AWS Lightsail Launch Script
-
-```text
-screenshots/lightsail-launch-script.png
-```
-
-## Cloudflare DNS
-
-```text
-screenshots/cloudflare-dns.png
-```
-
-## Final Restored Website
-
-```text
-screenshots/final-site.png
-```
-
----
-
-# 🛠 Troubleshooting
-
-## Check Installation Logs
-
-```bash
-cat /root/setup.log
-```
 
 ---
 
@@ -351,7 +314,7 @@ Planned upgrades:
 
 
 
-# 👨‍💻 Author
+# Author
 
 Hansika Shamal
 
